@@ -14,8 +14,8 @@ const CONFIG = {
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['🌸', '🌸', '🌸', '🌸', '🌸'],  // Heart emojis
-        bears: ['🐶', '🐱']                       // Cute bear emojis
+        hearts: ['🌸', '🌸', '🌸', '🌸', '🌸', '🌸'],  // Heart emojis
+        bears: ['🐶', '🐱', '🐶', '🐱', '🐶', '🐱']                       // Cute bear emojis
     },
 
     // Questions and answers
@@ -23,8 +23,8 @@ const CONFIG = {
     questions: {
         first: {
             text: "do you like me?",                                    // First interaction
-            yesBtn: "yes, obv",                                             // Text for "Yes" button
-            noBtn: "no, fuck u",                                               // Text for "No" button
+            yesBtn: "yes, obv!",                                             // Text for "Yes" button
+            noBtn: "no, fuck u!",                                               // Text for "No" button
             secretAnswer: "no, but i love u!!"           // Secret hover message
         },
         second: {
@@ -59,9 +59,9 @@ const CONFIG = {
     colors: {
         backgroundStart: "#ffd6ff",      // Gradient start (try pastel colors for a soft look)
         backgroundEnd: "#ffd6ff",        // Gradient end (should complement backgroundStart)
-        buttonBackground: "#800f2f",     // Button color (should stand out against the background)
+        buttonBackground: "#BF1A1A",     // Button color (should stand out against the background)
         buttonHover: "#a4133c",          // Button hover color (slightly lighter than buttonBackground)
-        textColor: "#7b2cbf"             // Text color (make sure it's readable!)
+        textColor: "#62109F"             // Text color (make sure it's readable!)
     },
 
     // Animation settings
@@ -69,7 +69,7 @@ const CONFIG = {
     animations: {
         floatDuration: "15s",           // How long it takes hearts to float up (10-20s recommended)
         floatDistance: "50px",          // How far hearts move sideways (30-70px recommended)
-        bounceSpeed: "0.5s",            // Speed of bouncing animations (0.3-0.7s recommended)
+        bounceSpeed: "0.7s",            // Speed of bouncing animations (0.3-0.7s recommended)
         heartExplosionSize: 1.5         // Size of heart explosion effect (1.2-2.0 recommended)
     },
 
@@ -78,7 +78,7 @@ const CONFIG = {
     music: {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://music.apple.com/de/album/my-favorite-part-feat-ariana-grande/1137965822?i=1137966551", // Music streaming URL
+        musicUrl: "https://res.cloudinary.com/dvjeobjto/video/upload/v1769955737/Mac_Miller_-_My_Favorite_Part_feat._Ariana_Grande_u9vkof.mp3", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
         volume: 0.5                        // Volume level (0.0 to 1.0)
